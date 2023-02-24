@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcome_fragment">
+
+    <fragment
+        android:id="@+id/logIn_fragment"
+        android:name="com.example.quicksuppotapp.LogIn_fragment"
+        android:label="fragment_log_in_fragment"
+        tools:layout="@layout/fragment_log_in_fragment" />
+    <fragment
+        android:id="@+id/welcome_fragment"
+        android:name="com.example.quicksuppotapp.Welcome_fragment"
+        android:label="fragment_welcome_fragment"
+        tools:layout="@layout/fragment_welcome_fragment" />
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="com.example.quicksuppotapp.Profile_Fragment"
+        android:label="fragment_profile_"
+        tools:layout="@layout/fragment_profile_" />
+    <fragment
+        android:id="@+id/homeSupporter_fragment"
+        android:name="com.example.quicksuppotapp.HomeSupporter_fragment"
+        android:label="fragment_home_supporter_fragment"
+        tools:layout="@layout/fragment_home_supporter_fragment" />
+    <fragment
+        android:id="@+id/homeSupportSeeker_fragment"
+        android:name="com.example.quicksuppotapp.HomeSupportSeeker_fragment"
+        android:label="fragment_home_support_seeker_fragment"
+        tools:layout="@layout/fragment_home_support_seeker_fragment" />
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.example.quicksuppotapp.Detail_fragment"
+        android:label="fragment_detail_fragment"
+        tools:layout="@layout/fragment_detail_fragment" />
+</navigation>
